@@ -1,7 +1,7 @@
 
 print("Bienvenidos a un programa de Python")
 
-a = 10
-b = 8
+a = int(input("Ingrese a:"))
+b = int(input("Ingrese b:"))
 c = a +b
 print("{} + {} + {}".format(a,b,c))
